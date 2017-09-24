@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^8.0.30",
     "ts-loader": "^2.3.7",
     "tslint": "^5.7.0",
     "tslint-loader": "^3.5.3",
