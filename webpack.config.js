@@ -8,9 +8,9 @@ var libraryName = 'ts_mpesa_api',
  
 if (yargs.argv.p) {
   plugins.push(new webpack.optimize.UglifyJsPlugin({ minimize: true }));
-  outputFile = ts_mpesa_api + '.min.js';
+  outputFile = libraryName + '.min.js';
 } else {
-  outputFile = ts_mpesa_api + '.js';
+  outputFile = libraryName + '.js';
 }
  
 var config = {
@@ -21,7 +21,7 @@ var config = {
   output: {
     path: path.join(__dirname, '/dist'),
     filename: outputFile,
-    library: ts_mpesa_api,
+    library: libraryName,
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
