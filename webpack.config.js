@@ -21,7 +21,7 @@ var config = {
   output: {
     path: path.join(__dirname, '/dist'),
     filename: outputFile,
-    library: libraryName,
+    library: ts_mpesa_api,
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
