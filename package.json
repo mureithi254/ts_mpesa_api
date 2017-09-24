@@ -1,0 +1,19 @@
+{
+  "name": "ts_mpesa_api",
+  "version": "1.0.0",
+  "description": "A typescript ts_mpesa_api endpoint library for javascript users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^2.3.7",
+    "tslint": "^5.7.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0"
+  }
+}
