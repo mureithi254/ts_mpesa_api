@@ -1,6 +1,6 @@
 {
   "name": "ts_mpesa_api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An mpesa api built in typescript to help developers integrate safaricom's b2c c2b and b2b into their web applications",
   "main": "ts_mpesa_api.ts",
   "directories": {
