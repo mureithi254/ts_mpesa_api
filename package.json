@@ -1,20 +1,40 @@
 {
   "name": "ts_mpesa_api",
   "version": "1.0.0",
-  "description": "A typescript ts_mpesa_api endpoint library for javascript users",
-  "main": "dist/ts_mpesa_api.js",
-  "scripts": {
-    "test": "echo ./tests/ts_mpesa_api_test.ts"
+  "description": "An mpesa api built in typescript to help developers integrate safaricom's b2c c2b and b2b into their web applications",
+  "main": "ts_mpesa_api.ts",
+  "directories": {
+    "test": "tests"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "test": "mpesa_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mureithi254/ts_mpesa_api.git"
+  },
+  "keywords": [
+    "typescript",
+    "mpesa",
+    "api",
+    "mpesa",
+    "api",
+    "safaricom",
+    "api",
+    "b2c",
+    "b2b",
+    "c2b",
+    "integrate",
+    "mpesa",
+    "into",
+    "my",
+    "web",
+    "application"
+  ],
+  "author": "james mureithi <lnewhenio@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^8.0.30",
-    "ts-loader": "^2.3.7",
-    "tslint": "^5.7.0",
-    "tslint-loader": "^3.5.3",
-    "typescript": "^2.5.2",
-    "webpack": "^3.6.0"
-  }
+  "bugs": {
+    "url": "https://github.com/mureithi254/ts_mpesa_api/issues"
+  },
+  "homepage": "https://github.com/mureithi254/ts_mpesa_api#readme"
 }
