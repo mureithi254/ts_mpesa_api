@@ -1,0 +1,3 @@
+# ts_mpesa_api
+A typescript mpesa library for javascript users
+Moved to developing this on private bitbucket repo ...
